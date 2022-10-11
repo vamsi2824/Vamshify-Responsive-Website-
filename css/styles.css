@@ -11,6 +11,8 @@ html{
     --colour-accent:#ff3400;
     --colour-headings:#1b0760;
     --colour-body:#918ca4;
+    --colour-border:#ccc;
+    --border-radious:30px;
 }
 body{
     font-family:Inter,Arial, Helvetica, sans-serif ;
@@ -205,8 +207,8 @@ margin-left:10px;
  /* Inputs */
 
  .input{
-    border-radius: 30px;
-    border: 1px solid #ccc;
+    border-radius: var(--border-radious);
+    border: 1px solid var(--colour-border);
     color: var(--colour-headings);
     font-size: 2rem;
     outline: 0;
@@ -214,8 +216,24 @@ margin-left:10px;
  }
  ::placeholder{
     color: #cdcbd7;
-
  }
+ 
+  /* Inputs Groups */
+  .input-group{
+ border: 1px solid var(--colour-border);
+ border-radius:var(--border-radious);
+ display: flex;
+ 
+ }
+ .input-group .input{
+     border: 0;
+     flex-grow: 1;
+    padding: 1.5rem 1rem; 
+ }
+ .input-group .btn{
+     margin: 4px;
+ }
+ 
  @media screen and (min-width:1024px){
     .input{
         font-size: 1.5rem;
