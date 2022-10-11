@@ -101,25 +101,6 @@ margin-left:10px;
     font-size: 1.2rem;
 }
  }
- /* Inputs */
-/* 
- .input{
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    color: var(--colour-headings);
-    font-size: 2rem;
-    outline: 0;
-    padding: 1.5rem 3rem;
- }
- ::placeholder{
-    color: #cdcbd7;
-
- }
- @media screen and (min-width:1024px){
-    .input{
-        font-size: 1.5rem;
-    }
- } */
  /* Lists */
  .list{
     list-style: none;
@@ -220,3 +201,23 @@ margin-left:10px;
     }
     
 }
+
+ /* Inputs */
+
+ .input{
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    color: var(--colour-headings);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3rem;
+ }
+ ::placeholder{
+    color: #cdcbd7;
+
+ }
+ @media screen and (min-width:1024px){
+    .input{
+        font-size: 1.5rem;
+    }
+ }
