@@ -239,3 +239,21 @@ margin-left:10px;
         font-size: 1.5rem;
     }
  }
+ /* Cards */
+ .card{
+    border-radius: 7px;
+    box-shadow:0 0 20px 10px #f3f3f3 ;
+    overflow: hidden;
+ }
+ .card--primary .card__header{
+    color: #fff;
+background-color:var(--colour-primary);
+ }
+ .card--secondary .card__header{
+    color: #fff;
+background-color:var(--colour-secondary);
+ }
+ .card__header,
+ .card__body{
+    padding: 2rem 3rem;
+ }
