@@ -257,3 +257,30 @@ background-color:var(--colour-secondary);
  .card__body{
     padding: 2rem 3rem;
  }
+ 
+ /* plans */
+
+ .plan__name{
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    font-size: 2.4rem;
+ }
+ .plan__price{
+    font-size: 6rem;
+ }
+ .plan__billing-cycle{
+    font-size: 2.4rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-right: 1rem;
+ }
+ .plan__discription{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    display: block;
+ }
+ .plan .list__items{
+    margin-bottom: 2rem;
+ }
