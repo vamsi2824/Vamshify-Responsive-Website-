@@ -11,6 +11,7 @@ html{
     --colour-accent:#ff3400;
     --colour-headings:#1b0760;
     --colour-body:#918ca4;
+    --colour-body-daarker:#5c5577;
     --colour-border:#ccc;
     --border-radious:30px;
 }
@@ -332,3 +333,50 @@ margin: 0 2rem;
  .media__image{
     margin-top: 1rem;
  }
+
+ /* Quote */
+ .quote{
+font-size: 3rem;
+color:var(--colour-body-daarker) ;
+line-height: 1.3;
+}
+.quote__text::before{
+    content: open-quote;
+}
+
+.quote__text::after{
+    content:close-quote;
+    font-style: italic;
+}
+
+ .quote__image{
+    margin: 0 0.5rem;
+ }
+ .quote__author{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+ }
+ .quote__organization{
+    color: var(--colour-headings);
+    opacity: .4;
+    font-size: 2rem;
+    font-style: normal;
+ }
+ .quote__line{
+    position: relative;
+bottom: 10px;
+ }
+
+ @media screen and (min-width:1024px) {
+    .quote{
+font-size: 2rem;
+    }
+.quote__author{
+    font-size: 2.4rem;
+}
+.quote__organization{
+    font-size: 1.6rem;
+}
+}
